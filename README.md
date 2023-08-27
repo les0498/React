@@ -8,4 +8,4 @@ overwatch 파일 -> css 실습
 
 react-tictactoe-app -> react tictactoe 앱 만들기 실습 
 
-이제 마무리지어야함,,
+이제 마무리지어야함
