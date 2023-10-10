@@ -7,4 +7,7 @@ starter 파일 -> html, css, js 기초 탄탄히 배우는 과정
 overwatch 파일 -> css 실습 
 
 react-tictactoe-app -> react tictactoe 앱 만들기 실습 
-  ㅏ
+
+이제 마무리지어야함
+
+정리하기! 낼부터
