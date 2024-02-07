@@ -354,9 +354,32 @@ header .badges .badge {
 }
 .notice .notice-line .inner__left .swiper-container { 
   height: 62px;
-  background-color: orange;
   flex-grow: 1;
 }
+
+.swiper-container-parent {
+  overflow: hidden; /* 스와이퍼 영역 이외의 텍스트 감추기 */
+}
+
+.swiper-slide {
+  opacity: 0; /* 기본적으로 모든 슬라이드 텍스트 숨기기 */
+}
+
+.swiper-slide-active {
+  opacity: 1; /* 활성화된 슬라이드의 텍스트만 보이도록 설정 */
+}
+
+
+.notice .notice-line .inner__left .swiper-slide { 
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+
+.notice .notice-line .inner__left .swiper-slide a { 
+  color: #fff;
+}
+
 .notice .notice-line .inner__left .notice-line__more { 
   width: 62px;
   height: 62px;
