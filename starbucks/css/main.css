@@ -357,15 +357,15 @@ header .badges .badge {
   flex-grow: 1;
 }
 
-.swiper-container-parent {
+.notice .notice-line .swiper-container-parent {
   overflow: hidden; /* 스와이퍼 영역 이외의 텍스트 감추기 */
 }
 
-.swiper-slide {
+.notice .notice-line .swiper-slide {
   opacity: 0; /* 기본적으로 모든 슬라이드 텍스트 숨기기 */
 }
 
-.swiper-slide-active {
+.notice .notice-line .swiper-slide-active {
   opacity: 1; /* 활성화된 슬라이드의 텍스트만 보이도록 설정 */
 }
 
@@ -420,3 +420,35 @@ header .badges .badge {
   font-size: 30px;
 }
 
+.notice .promotion {
+  height: 693px;
+  background-color: #f6f5ef;
+  position:relative;
+}
+
+.notice .promotion .swiper-container {
+  width: calc(819px * 3 + 20px); 
+  /* width: calc(100% - 50px); */
+  height: 553px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  margin-left: calc((819px * 3 + 20px) / -2);  /* -1238.5 */
+}
+
+.notice .promotion .swiper-slide {
+  opacity: .5;
+  transition: opacity 1s;
+}
+
+.notice .promotion .swiper-slide-active {
+  opacity: 1;
+}
+
+.notice .promotion .swiper-slide .btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
