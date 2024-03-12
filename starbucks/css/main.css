@@ -614,3 +614,25 @@ header .badges .badge {
   left: 0;
 }
 
+.youtube .inner {
+  height: 700px;
+}
+
+.youtube .floating1 {
+  position: absolute;
+  top: 50px;
+  left: 0; 
+}
+
+.youtube .floating2 {
+  position: absolute;
+  top: 350px;
+  left: 150px; 
+}
+
+
+.youtube .floating3 {
+  position: absolute;
+  top: -200px;
+  left: 0; 
+}
