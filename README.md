@@ -1,4 +1,5 @@
-![Untitled](https://github.com/les0498/React/assets/92281453/37f3d271-873d-483c-a2d5-a59642eab6fc)
+![Untitled](https://github.com/les0498/React/assets/92281453/e1699207-e6d2-4f9b-96b8-445cc1b03d92)
+
 # React
 React 공부(with html, css, js)
 
